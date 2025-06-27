@@ -1,10 +1,11 @@
 # TA-tool
+All resources are available in Release.
+
 A small tool based on BERT-wwm for identifying the referents of the gender-neutral pronoun "TA" in Chinese
 
 This tool performs coreference resolution for the Chinese gender-neutral pronoun “ta” by leveraging a fine-tuned Chinese BERT-wwm model to predict its referent.
 Note: This tool cannot resolve zero anaphora for “ta.” In other words, if the referent of “ta” does not explicitly appear in the text and must be inferred by the reader, the tool will not work.
 
-All resources are available in Release.
 A.	If you do not wish to use Python or modify the code, please follow the steps below:
   1.	Download the fine-tuned bert.wwm model from the Release section: “bert-ta-export.rar“. Save it to any directory and     extract it. You will see five files: config.json, model.safetensors, pytorch_model.bin, special_tokens_map.json,          tokenizer_config.json, and vocab.txt.
   2.	Download "main.rar" directly from the Release section. After unzipping it, click "main.exe" to run the program.
